@@ -25,5 +25,11 @@ python test.py -a 'B_32_imagenet1k' -b 128 --image_size 384
 
 ## :european_castle: Model Zoo
 
-| GAN                  |                                                |                                                        |          |                                                |                                                        |
-| :------------------- | :--------------------------------------------: | :----------------------------------------------------: | :------- | :--------------------------------------------: | :----------------------------------------------------: |
+| Pre-trained ViT        |                           URL                     |  
+| ImageNet Classification        |                           URL                     |  
+| Cifar10 Classification        |                           URL                     |  
+| Cifar100 Classification        |                           URL                     |  
+| Arbitrary Ratio Classification        |                           URL                     | 
+| Binary Sampling Classification        |                           URL                     | 
+| Shuffled Classification        |                           URL                     | 
+
