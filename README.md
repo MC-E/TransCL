@@ -10,7 +10,7 @@ The source code will be released soon.
 ## Training
 
 ```bash
-Classification on ImageNet
+Training on ImageNet
 
 python main_imagenet.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_imagenet_p32_01 --cs=1 --mm=1 --save_path=transcl_384_imagenet_p32_01 --devices=4 --rat 0.1
 ```
