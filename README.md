@@ -40,7 +40,7 @@ Please run the commands in the folder of `classification`. <br>
 python main_imagenet.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_imagenet_p32_01 --cs=1 --mm=1 --save_path=transcl_384_imagenet_p32_01 --devices=4 --rat 0.1 --data /group/30042/public_datasets/imagenet1k
 ```
 
-#### Training on ImageNet with random CS ratios
+#### Training on ImageNet with arbitrary CS ratios
 ```bash
 python main_arb.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_imagenet_p32_01 --cs=1 --mm=1 --save_path=transcl_384_imagenet_p32_01 --devices=4 --rat 0.1 --data /group/30042/public_datasets/imagenet1k
 ```
