@@ -85,7 +85,7 @@ Coming soon
 | ImageNet classification (patch size=32, ratio={0.1, 0.05, 0.025, 0.01})       |                           [URL](https://disk.pku.edu.cn:443/link/2713FF6650438ACDAB39411A74FF9334)                     |
 | Cifar10 classification        |                           URL                     |  
 | Cifar100 classification        |                           URL                     |  
-| Arbitrary ratio classification        |                           URL                     | 
+| Arbitrary ratio classification (patch size=32)        |                           [URL](https://disk.pku.edu.cn:443/link/8A1FC9F83F364F3CEAA0F6C048DAB362)                     | 
 | Binary sampling slassification        |                           URL                     | 
 | Shuffled classification        |                           URL                     | 
 
