@@ -103,10 +103,10 @@ Coming soon
 
 ## BibTeX
 
-@article{mou2022transcl,
-  title={TransCL: Transformer makes strong and flexible compressive learning},
-  author={Mou, Chong and Zhang, Jian},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2022},
-  publisher={IEEE}
-}
+    @article{mou2022transcl,
+      title={TransCL: Transformer makes strong and flexible compressive learning},
+      author={Mou, Chong and Zhang, Jian},
+      journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+      year={2022},
+      publisher={IEEE}
+    }
