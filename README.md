@@ -31,8 +31,8 @@
 
 ## Training for Classification
 Please run the commands in the folder of `classification`. <br>
-1. Prepare  the training data of [ImageNet1K](https://image-net.org/download-images.php)
-2. Download the pre-trained checkpoints of vision transformer from the [link](https://disk.pku.edu.cn:443/link/9B8CAF903895E2BEDBA1E58641A3C4E3). 
+1. Prepare the training data of [ImageNet1K](https://image-net.org/download-images.php)
+2. Download the pre-trained checkpoints of vision transformer from [link-ImageNet](https://disk.pku.edu.cn:443/link/9B8CAF903895E2BEDBA1E58641A3C4E3) and [link-CIFAR](https://disk.pku.edu.cn:443/link/1437785D0ECDE48C86AEC4EF13E61939). 
 3. The training support ViT-base with patch size being 16 (`-a B_16_imagenet1k`) and 32 (`-a B_32_imagenet1k`).
 #### Training on ImageNet with a fixed CS ratio
 ```bash
