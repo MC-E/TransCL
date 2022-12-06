@@ -25,6 +25,8 @@
 
     ```bash
     pip install tensorboardX
+    conda install pytorch=1.6.0 torchvision cudatoolkit=10.1 -c pytorch -y
+    pip install mmcv-full==1.2.2 -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.6.0/index.html
     ```
 
 ## Training for Classification
