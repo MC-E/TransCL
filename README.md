@@ -35,9 +35,18 @@ Please run the commands in the folder of `classification`. <br>
 2. Download the pre-trained checkpoints of vision transformer from the [link](https://disk.pku.edu.cn:443/link/9B8CAF903895E2BEDBA1E58641A3C4E3). 
 3. The training support ViT-base with patch size being 16 (`-a B_16_imagenet1k`) and 32 (`-a B_32_imagenet1k`).
 #### Training on ImageNet with a fixed CS ratio
-
 ```bash
 python main_imagenet.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_imagenet_p32_01 --cs=1 --mm=1 --save_path=transcl_384_imagenet_p32_01 --devices=4 --rat 0.1 --data /group/30042/public_datasets/imagenet1k
+```
+
+#### Training on Cifar10 with a fixed CS ratio
+```bash
+python main_cifar10.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_cifar10_p32_01 --cs=1 --mm=1 --save_path=transcl_384_cifar10_p32_01 --devices=4 --rat 0.1
+```
+
+#### Training on Cifar100 with a fixed CS ratio
+```bash
+python main_cifar100.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_cifar100_p32_01 --cs=1 --mm=1 --save_path=transcl_384_cifar100_p32_01 --devices=4 --rat 0.1
 ```
 
 #### Training on ImageNet with random CS ratios
