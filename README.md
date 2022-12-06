@@ -11,6 +11,7 @@
 
 - Python >= 3.6 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
 - [PyTorch >= 1.4](https://pytorch.org/)
+- At least two V100 GPUs are required.
 
 ### Installation
 
@@ -39,6 +40,11 @@ Please run the commands in the folder of `classification`. <br>
 python main_imagenet.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_imagenet_p32_01 --cs=1 --mm=1 --save_path=transcl_384_imagenet_p32_01 --devices=4 --rat 0.1 --data /group/30042/public_datasets/imagenet1k
 ```
 
+#### Training on ImageNet with random CS ratios
+```bash
+python main_arb.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_imagenet_p32_01 --cs=1 --mm=1 --save_path=transcl_384_imagenet_p32_01 --devices=4 --rat 0.1 --data /group/30042/public_datasets/imagenet1k
+```
+
 #### Training on Cifar10 with a fixed CS ratio
 ```bash
 python main_cifar10.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_cifar10_p32_01 --cs=1 --mm=1 --save_path=transcl_384_cifar10_p32_01 --devices=4 --rat 0.1
@@ -48,8 +54,6 @@ python main_cifar10.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --l
 ```bash
 python main_cifar100.py -a 'B_32_imagenet1k' -b 128 --image_size 384 --gpu 0  --lr 1e-3 --log_dir logs/transcl_384_cifar100_p32_01 --cs=1 --mm=1 --save_path=transcl_384_cifar100_p32_01 --devices=4 --rat 0.1
 ```
-
-#### Training on ImageNet with random CS ratios
 
 ## Training for Segmentation
 Coming soon
