@@ -66,6 +66,12 @@ You can download the pre-trained checkpoints from our model zoo.
 python test_imagenet.py -a 'B_32_imagenet1k' -b 128 --image_size 384
 ```
 
+### Testing on ImageNet with arbitrary CS ratios
+```bash
+
+python test_arb.py -a 'B_32_imagenet1k' -b 128 --image_size 384
+```
+
 ## Testing for Segmentation
 Coming soon
 
