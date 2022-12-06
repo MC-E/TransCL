@@ -100,3 +100,13 @@ Coming soon
 | Segmentation on Pascal Context with fixed ratio (patch size=16, ratio={0.1, 0.05, 0.025, 0.01})        |                          URL                    |
 | Segmentation with arbitrary ratios    |                          URL                    |
 | Segmentation with binary sampling    |                          URL                    |
+
+## BibTeX
+
+@article{mou2022transcl,
+  title={TransCL: Transformer makes strong and flexible compressive learning},
+  author={Mou, Chong and Zhang, Jian},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022},
+  publisher={IEEE}
+}
